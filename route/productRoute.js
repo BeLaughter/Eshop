@@ -13,7 +13,7 @@ const router = express.Router();
 
 const uploadFile = multer({storageFile});
 
-//set image file type
+//set image file type to the server
 const FILE_TYPE_MAP = {
     "image/png":"png",
     "image/jpeg":"jpeg",
